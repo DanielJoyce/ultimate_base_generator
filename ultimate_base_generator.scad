@@ -99,11 +99,11 @@ module base(sides,
   panel_offset = -0.4){
   radius = diameter / 2;
   cos_r = cos(360/(2*sides));
-
   scale_factor = inset ? 1 : 1 / cos_r;
   slot_width = cos(360/(2*sides))*diameter*0.9*scale_factor;
-  slot_r = slot_x ? 0 : 90;
-  top_radius = radius - 0.5;
+  even = sides % 2 == 0;
+  slot_angle = even ? 360 / (2*sides) : 90;
+  slot_r = slot_x ? 0 : slot_angle;  top_radius = radius - 0.5;
   difference(){
     scale([scale_factor,scale_factor,1]) rotate([0,0,360/(2*sides)]) {
       union(){
