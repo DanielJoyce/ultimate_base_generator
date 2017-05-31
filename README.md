@@ -9,3 +9,4 @@ applying greyscale images to texture the base.
 If like this program, please donate. Donations are used for coffee, beer, hardware, hosting, and other costs
 
 Bitcoin: 1LsbziuCYKyCY3Urd3Yo7WSsK1Co6wjCqT 
+Paypal: paypal.me/dajoyce
