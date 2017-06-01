@@ -3,6 +3,9 @@
 // Creative Commons Share Alike + Attribution
 // Please see LICENSE.md
 // 3D-Miniatures.com
+// Donations/Tips:
+// Bitcoin: 1LsbziuCYKyCY3Urd3Yo7WSsK1Co6wjCqT 
+// Paypal: paypal.me/dajoyce
 
 /* [Base] */
 
